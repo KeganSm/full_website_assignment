@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1f2937;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 192px;
+    padding-right: 192px;
+}
+.logo {
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    flex: 1 0 auto;
+}
+.header .list {
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.section-one {
+    background-color: #1f2937;
+    display: flex;
+    padding-left: 192px;
+    padding-right: 192px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 36px;
+}
+.section-one-left {
+    align-self: center;
+    flex: 1 0 auto;
+    width: 400px;
+}
+.section-one-title {
+    font-size: 48px;
+    color: white;
+}
+.text {
+    color:lightgray;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.section-one img {
+    height: auto;
+    width: 400px;
+}
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+}
+.section-two .text {
+    width: 150px;
+    height: auto;
+}
+.section-two-title {
+    align-self: center;
+    font-size: 36px;
+    padding-bottom: 48px;
+    font-weight: 600;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    text-align: center;
+}
+.cards img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+.section-three {
+    background-color: #e5e7eb;
+    padding: 48px;
+}
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+.banner-box {
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 48px;
+    gap: 24px;
+}
+.banner-header {
+    color: white;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    flex: 1 0 auto;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+.section-four button {
+    border: 1px solid white;
+}
+.section-one button {
+    border: none;
+}
